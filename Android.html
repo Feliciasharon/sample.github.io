@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 100px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button4 {border-radius: 50%;}
+.button5 {border-radius: 50%;}
+.button6 {border-radius: 50%;}
+.button7 {border-radius: 50%;}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.ttt{
+column-count: 2;
+}
+
+.jjj{
+column-count: 2;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  color: black;
+font-size: 40px;
+background: #1abc9c;
+}
+.navbar {
+margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+img{
+height: 500px;
+width: 85%;
+margin: 100px;
+}
+body {margin: 30px;
+font-family: Arial, Helvetica, sans-serif;}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About-us</a>
+  <a href="#register">Register</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- Slide Show -->
+<div id="home" class="header">
+<section>
+  <img class="mySlides" src="https://www.xda-developers.com/files/2020/11/Best-Android-Apps.jpg"
+  >
+  <img class="mySlides" src="https://i.insider.com/5e04e2a5855cc23de9287047?width=1100&format=jpeg&auto=webp"
+  >
+  <img class="mySlides" src="https://cdn.vox-cdn.com/thumbor/kL-Z76ZSmU6AUOBanezRDqSQ7us=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19086219/Android_logo_stacked__RGB_.jpg"
+  >
+
+</section>
+<h1><i>Android Club</i></h1><div class="jjj"><img src="and.png" style="width:200px; height:200px; margin:20px"><p style="color:white;">Passionate about technology and dedicated to pushing its limits.Unique culture, process and teams have been designed to craft remarkable and disruptive apps</p></div>
+</div><br><br><br><br>
+<div class="row">
+  <div class="side"><center>
+<img src="vit.png" style="width:700px; height:200px;"> </center>
+<div style="background-color:pink;" id="about" class="ttt">
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+<center>  
+<button class="button button1"><b>PROJECTS</b><br><br><br>Participate in individual as well as group projects.</button>
+<button class="button button2"><b>APP DEVELOPEMENT</b><BR><br><br>Make your own android app guided by seniors and faculties.</button>
+<button class="button button3"><b>WORKSHOPS</b><BR><br><br>Organise and participate in technical workshops.</button>
+
+<br><br><br><br><br><br><br>
+<button style="background-color:purple; " class="button button4"><b>TECHNICAL TEAM</b><br><br>Takes care of technical support needed for the club.</button>
+<button style="background-color:purple;" class="button button5"><b>DESIGN TEAM</b><br><br>Takes care of designing required for events.</button>
+<button style="background-color:purple;" class="button button6"><b>MARKETING TEAM</b><br><br>Takes care of the marketing process for different events.</button>
+<button style="background-color:purple;" class="button button7"><b>MANAGEMENT TEAM</b><br><br>Takes care of the management and the finances of different events.</button>
+</center></section>
+</div><br><br><br>
+
+
+
+<div id="register" >
+<section class="w3-row-padding w3-center w3-light-grey">
+<center><h1 style="font-size:34px;">Enroll yourself now!</h1><br><br>
+<button style="background-color:blue;" class="button">Register</button>
+<img src="and2.jpg"><br>
+<h1>Android-The platform pushing what's possible</h1>
+</center>  <br><br><br>
+</section>
+</div>
+</div></div>
+<!-- Footer -->
+<div id="contact" class="footer" style="background-color:black;">
+ <center> <h2 style="font-size:34px; color:white;">Contact us on</h2><br><br>
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p style="color:white;" class="w3-medium">
+  </center>
+</footer>
+</div>
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 1000);
+}
+</script>
+
+
+</body>
+</html>
+
